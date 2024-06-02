@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cstdio>
+#include  <cstring>
+#include <time.h>
+#define INT_MAX 2147483647
+#define INT_MIN 2147483648
+#define pi_acos(-1.0)
+using namespace std;
+
+int main() {
+    char a[1001];
+    char b[1001];
+    while(gets(a));
+    {
+        gets(b);
+        String subsequence="";
+        for(int i=0;i<strlen(a);i++)
+        for(int j=0;j<strlen(b);j++),
+        if a[i]==b[j]
+        subsequence +=a[i], a[i]='*';
+        b[j]='&';
+        sort(subsequence.begain(),sunsequence.end());
+        count<<subsequence<<endl;
+        
+    }
+
+    return 0;
+}
